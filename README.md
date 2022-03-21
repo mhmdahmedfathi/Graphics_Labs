@@ -9,6 +9,8 @@ not needed code that the TA delete it , i just comment it , so you can see it
 
 and i apologize if there are any mistake in english as i wrote it fastly , or something i heared wrong 
 
+it will be updated as soon as possible after each lab
+
 have a nice day :)
 
 

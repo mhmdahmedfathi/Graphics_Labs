@@ -48,6 +48,7 @@ int main(int, char**) {
     GLuint vs = loadShader("assets/shaders/simple.vert",GL_VERTEX_SHADER);
     glAttachShader(program,vs); //attach program with shader
     glDeleteShader(vs); //delete shader when finished
+
     GLuint fs = loadShader("assets/shaders/simple.frag",GL_FRAGMENT_SHADER);
     glAttachShader(program,fs); //attach program with shader
     glDeleteShader(fs); //delete shader when finished
@@ -65,7 +66,7 @@ int main(int, char**) {
         { 0.5f,  0.5f, 0.0f, 255, 255,   0, 255},
         {-0.5f,  0.5f, 0.0f, 255,   0, 255, 255},
     };
-
+    // data will be divided to the first 3 element is the position of the point and the rest 4 points indecates its color
 
     GLuint VBO; //buffer ( container of data)
     glGenBuffers(1,&VBO); // make a object of it
@@ -73,22 +74,29 @@ int main(int, char**) {
     glBindBuffer(GL_ARRAY_BUFFER, VBO); //we must bind anything before using it 
     
     glBufferData(GL_ARRAY_BUFFER, 3*sizeof(Vertex) , vertices , GL_STATIC_DRAW ); /* it transfer data and it is init to vbo(buffer) 
-    and 3*3*4 indecates 3 vertix * 3 points which are (x,y,z) * each one 4 bytes , data => position (pointer) , 
+    and 3*(sizeof(Vertex)) indecates 3 vertix * size of each vertex which are (3 float points which are (x,y,z) * each one 4 bytes ), data => position (pointer) , 
     static draw => used to draw and will not change  */
 
-    GLint positionLoc = 0; //glGetAttribLocation(program,"positions");
+    GLint positionLoc = 0; // instead of getting the location of positions which in simple.vert which i gave it location 0 there 
+
+    //glGetAttribLocation(program,"positions"); to get it dynamic
 
     glEnableVertexAttribArray(positionLoc); //it is essensiol as it won't read any attribute with out this
     glVertexAttribPointer(positionLoc,3,GL_FLOAT,false, sizeof(Vertex),(void*)0); //3 indecates components x,y,z get the data from last mentioned buffer
     // stride is the time taken from the buffer to get to the given point (not sure)
     
+    
+
+    //this is the code of colors if we divided vertex in positions and colors individual
+
+    
     // float colors[] = {
     //      0.0,  1.0, 1.0, 1.0,
     //      1.0,  0.0, 1.0, 1.0,
     //      1.0,  1.0, 0.0, 1.0,
-    // };
+    // }; --> TA merge the colors and positions togather in vertex struct
 
-
+    
     // GLuint VB1; //buffer ( container of data)
     // glGenBuffers(1,&VB1); // make a object of it
     
@@ -98,6 +106,8 @@ int main(int, char**) {
      /* it transfer data and it is init to vbo(buffer) 
     and 3*3*4 indecates 3 vertix * 3 points which are (x,y,z) * each one 4 bytes , data => position (pointer) , 
     static draw => used to draw and will not change  */
+
+
 
     GLint colorLoc = 1; //glGetAttribLocation(program,"colors");
 
