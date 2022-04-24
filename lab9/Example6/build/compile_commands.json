@@ -1,0 +1,87 @@
+[
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Example6.dir/includes_CXX.rsp -g -o CMakeFiles\\Example6.dir\\main.cpp.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\main.cpp\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/main.cpp"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/Example6.dir/includes_C.rsp -g -o CMakeFiles\\Example6.dir\\vendor\\glad\\src\\gl.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glad\\src\\gl.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glad/src/gl.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\context.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/context.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\init.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\init.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/init.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\input.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\input.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/input.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\monitor.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\monitor.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/monitor.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\vulkan.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/vulkan.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\window.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\window.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/window.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\win32_init.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/win32_init.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\win32_joystick.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/win32_joystick.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\win32_monitor.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/win32_monitor.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\win32_time.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/win32_time.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\win32_thread.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/win32_thread.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\win32_window.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/win32_window.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\wgl_context.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/wgl_context.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\egl_context.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/egl_context.c"
+},
+{
+  "directory": "D:/Third year Second term/Graphics/labs/lab9/Example6/build/vendor/glfw/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c \"D:\\Third year Second term\\Graphics\\labs\\lab9\\Example6\\vendor\\glfw\\src\\osmesa_context.c\"",
+  "file": "D:/Third year Second term/Graphics/labs/lab9/Example6/vendor/glfw/src/osmesa_context.c"
+}
+]

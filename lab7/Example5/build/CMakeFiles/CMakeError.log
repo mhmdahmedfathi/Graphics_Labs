@@ -1,0 +1,81 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/Third year Second term/Graphics/labs/lab7/Example5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_f0aa6/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f0aa6.dir\build.make CMakeFiles/cmTC_f0aa6.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Third year Second term/Graphics/labs/lab7/Example5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0aa6.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\mingw32-gcc.exe    -o CMakeFiles\cmTC_f0aa6.dir\CheckIncludeFile.c.obj -c "D:\Third year Second term\Graphics\labs\lab7\Example5\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+D:\Third year Second term\Graphics\labs\lab7\Example5\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:21: fatal error: pthread.h: No such file or directory
+ #include <pthread.h>
+                     ^
+compilation terminated.
+CMakeFiles\cmTC_f0aa6.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_f0aa6.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_f0aa6.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Third year Second term/Graphics/labs/lab7/Example5/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f0aa6/fast' failed
+mingw32-make.exe: *** [cmTC_f0aa6/fast] Error 2
+
+
+
+Determining if the include file dinput.h exists failed with the following output:
+Change Dir: D:/Third year Second term/Graphics/labs/lab7/Example5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_db42f/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_db42f.dir\build.make CMakeFiles/cmTC_db42f.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Third year Second term/Graphics/labs/lab7/Example5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db42f.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\mingw32-gcc.exe    -o CMakeFiles\cmTC_db42f.dir\CheckIncludeFile.c.obj -c "D:\Third year Second term\Graphics\labs\lab7\Example5\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+D:\Third year Second term\Graphics\labs\lab7\Example5\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: dinput.h: No such file or directory
+ #include <dinput.h>
+                    ^
+compilation terminated.
+CMakeFiles\cmTC_db42f.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_db42f.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_db42f.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Third year Second term/Graphics/labs/lab7/Example5/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_db42f/fast' failed
+mingw32-make.exe: *** [cmTC_db42f/fast] Error 2
+
+
+
+Determining if the include file xinput.h exists failed with the following output:
+Change Dir: D:/Third year Second term/Graphics/labs/lab7/Example5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_699d9/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_699d9.dir\build.make CMakeFiles/cmTC_699d9.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Third year Second term/Graphics/labs/lab7/Example5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_699d9.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\mingw32-gcc.exe    -o CMakeFiles\cmTC_699d9.dir\CheckIncludeFile.c.obj -c "D:\Third year Second term\Graphics\labs\lab7\Example5\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+D:\Third year Second term\Graphics\labs\lab7\Example5\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: xinput.h: No such file or directory
+ #include <xinput.h>
+                    ^
+compilation terminated.
+CMakeFiles\cmTC_699d9.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_699d9.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_699d9.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Third year Second term/Graphics/labs/lab7/Example5/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_699d9/fast' failed
+mingw32-make.exe: *** [cmTC_699d9/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test _GLFW_HAS_64ASLR failed with the following output:
+Change Dir: D:/Third year Second term/Graphics/labs/lab7/Example5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_23ba6/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_23ba6.dir\build.make CMakeFiles/cmTC_23ba6.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Third year Second term/Graphics/labs/lab7/Example5/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23ba6.dir/src.c.obj
+C:\MinGW\bin\mingw32-gcc.exe -D_GLFW_HAS_64ASLR  -Wl,--high-entropy-va -o CMakeFiles\cmTC_23ba6.dir\src.c.obj -c "D:\Third year Second term\Graphics\labs\lab7\Example5\build\CMakeFiles\CMakeTmp\src.c"
+Linking C executable cmTC_23ba6.exe
+D:\cmake\cmake-3.23.0-rc3-windows-x86_64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_23ba6.dir\link.txt --verbose=1
+D:\cmake\cmake-3.23.0-rc3-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_23ba6.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\cmTC_23ba6.dir/objects.a @CMakeFiles\cmTC_23ba6.dir\objects1.rsp
+C:\MinGW\bin\mingw32-gcc.exe  -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\cmTC_23ba6.dir/objects.a -Wl,--no-whole-archive -o cmTC_23ba6.exe -Wl,--out-implib,libcmTC_23ba6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_23ba6.dir\linklibs.rsp
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: unrecognized option '--high-entropy-va'
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_23ba6.dir\build.make:99: recipe for target 'cmTC_23ba6.exe' failed
+mingw32-make.exe[1]: *** [cmTC_23ba6.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/Third year Second term/Graphics/labs/lab7/Example5/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_23ba6/fast' failed
+mingw32-make.exe: *** [cmTC_23ba6/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
